@@ -14,4 +14,4 @@ jobs:
       uses: microsoft/setup-msbuild@v2
 
     - name: Build with MSBuild
-      run: msbuild mutante/mutante.sln /p:Configuration=Release /p:Platform=x64
+      run: msbuild mutante/mutante.sln
